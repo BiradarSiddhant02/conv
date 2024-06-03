@@ -30,5 +30,7 @@ note: the "build.sh" script will install 'pyinstaller'
 conv -m <mode> -l <length> -n <number>
 ```
 mode: specifies the base of the number (hex, bin, dec)
+
 length: specifies the length of the output (32, 64)
+
 number: the number to be converted
