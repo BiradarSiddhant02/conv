@@ -22,6 +22,7 @@ sudo ./install.sh
 ```
 note: the "build.sh" script will install 'pyinstaller' 
 
+- Compile and install the executable
 For C++
 ```
 cd c++
