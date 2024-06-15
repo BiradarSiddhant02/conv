@@ -12,18 +12,30 @@ Terminal tool to convert a number to hexadecimal, binary and decimal
 ```
 git clone https://github.com/BiradarSiddhant02/conv.git 
 ```
+
+- Compile and install the executable
+For Python
+```
+cd python
+chmod +x install.sh
+sudo ./install.sh
+```
+note: the "build.sh" script will install 'pyinstaller' 
+
+For C++
+```
+cd c++
+chmod +x install.sh
+sudo ./install.sh
+```
+
 - Run tests
 ```
 chmod +x test1.sh test2.sh
-./test1.sh
-./test2.sh 
+./python/test1.sh
+./python/test2.sh 
+./c++/test.sh 
 ```
-- Compile and install the executable
-```
-chmod +x build.sh
-sudo ./build.sh
-```
-note: the "build.sh" script will install 'pyinstaller' 
 
 ## Usage
 ```
