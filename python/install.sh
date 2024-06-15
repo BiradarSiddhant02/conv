@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pip install pyinstaller
-rm -rf dist build
+rm -rf build dist
 pyinstaller main.py --onefile --noconsole --name conv
-cp ./dist/conv /bin/
-echo "Copied to /bin"
+sudo cp ./dist/conv /bin/
+

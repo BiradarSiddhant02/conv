@@ -58,6 +58,6 @@ if __name__ == "__main__":
         exit()
 
     # output the converted values
-    print(f"Dec: {num.dec}")
-    print(f"Hex: 0x{num.hex}")
-    print(f"Bin: 0b{num.bin}")
+    print(f"Dec: {num.dec.upper()}")
+    print(f"Hex: 0x{num.hex.upper()}")
+    print(f"Bin: 0b{num.bin.upper()}")
