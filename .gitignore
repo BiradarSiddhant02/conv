@@ -2,4 +2,5 @@ build
 dist
 .vscode
 tmp
+./python/conv.spec
 __pycache__
